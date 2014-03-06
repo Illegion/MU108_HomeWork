@@ -10,8 +10,8 @@
 
 @interface RouteViewController ()
 
-@property(nonatomic,strong) NSArray* routeData;
-@property(nonatomic,strong) NSArray* priceRoad;
+@property(nonatomic) NSArray* routeData;
+@property(nonatomic,retain) NSArray* priceRoad;
 
 @end
 
@@ -65,7 +65,7 @@
     {
         table[routeCounter++] = item;
     }
-//    NSArray *routeData = [[NSArray alloc] initWithObjects:
+//                          NSArray *routeData = [[NSArray alloc] initWithObjects:
 //                          @"ул Машерова",@"Академика Федорова",@"Комаровский рынок",
 //                          @"Лобанка, 99",@"мкр-н Сухарево-2",@"Сухаревская",
 //                          @"Горецкого",@"НПО \"Центр\"",@"Лесная",
@@ -78,8 +78,7 @@
 //                          @"Вокзал",@"Свердлова",
 //                          @"Червенский рынок",
 //                          @"Аранская",Nil];
-
-    
+//    
 //    NSMutableArray *priceRoad = [[NSMutableArray alloc] init];
 //  
 //    routeCounter = [routeData count];
@@ -90,7 +89,7 @@
 //    NSLog(@"%@", priceRoad);
 //
 //    iarray = [priceRoad count];
-//    
+//
 //    NSLog(@"%d", routeCounter);
 
 
@@ -123,7 +122,7 @@
 
     cell.textLabel.text = self.routeData[indexPath.row];
     cell.detailTextLabel.text = self.priceRoad[indexPath.row];
-    
+
     return cell;
 }
 
@@ -131,8 +130,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"Selected row index %@",indexPath);
-
+    NSLog(@"Title of row %@",self.routeData[indexPath.item]);
 }
+
 
 
 @end

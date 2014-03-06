@@ -21,8 +21,8 @@
 		84264E3518C7909A00FAA855 /* MU108_HW_4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84264E3418C7909A00FAA855 /* MU108_HW_4Tests.m */; };
 		84264E3F18C790B200FAA855 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84264E3E18C790B200FAA855 /* Storyboard.storyboard */; };
 		84264E4918C79F4800FAA855 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84264E4818C79F4800FAA855 /* RouteViewController.m */; };
-		84264E4C18C7A7CF00FAA855 /* avtobus-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84264E4A18C7A7CF00FAA855 /* avtobus-1.png */; };
-		84264E4D18C7A7CF00FAA855 /* BingImages_53581.png in Resources */ = {isa = PBXBuildFile; fileRef = 84264E4B18C7A7CF00FAA855 /* BingImages_53581.png */; };
+		84A2DF5E18C859DB001D6CF0 /* avtobus-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A2DF5C18C859DB001D6CF0 /* avtobus-1.png */; };
+		84A2DF5F18C859DB001D6CF0 /* BingImages_53581.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A2DF5D18C859DB001D6CF0 /* BingImages_53581.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		84264E3E18C790B200FAA855 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		84264E4718C79F4800FAA855 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
 		84264E4818C79F4800FAA855 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
-		84264E4A18C7A7CF00FAA855 /* avtobus-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "avtobus-1.png"; path = "../../../../../../Downloads/avtobus-1.png"; sourceTree = "<group>"; };
-		84264E4B18C7A7CF00FAA855 /* BingImages_53581.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BingImages_53581.png; path = ../../../../../../Downloads/BingImages_53581.png; sourceTree = "<group>"; };
+		84A2DF5C18C859DB001D6CF0 /* avtobus-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avtobus-1.png"; sourceTree = "<group>"; };
+		84A2DF5D18C859DB001D6CF0 /* BingImages_53581.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BingImages_53581.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 		84264E1618C7909A00FAA855 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84264E4A18C7A7CF00FAA855 /* avtobus-1.png */,
-				84264E4B18C7A7CF00FAA855 /* BingImages_53581.png */,
+				84A2DF5C18C859DB001D6CF0 /* avtobus-1.png */,
+				84A2DF5D18C859DB001D6CF0 /* BingImages_53581.png */,
 				84264E1718C7909A00FAA855 /* MU108_HW_4-Info.plist */,
 				84264E1818C7909A00FAA855 /* InfoPlist.strings */,
 				84264E1B18C7909A00FAA855 /* main.m */,
@@ -233,10 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84264E4C18C7A7CF00FAA855 /* avtobus-1.png in Resources */,
-				84264E4D18C7A7CF00FAA855 /* BingImages_53581.png in Resources */,
+				84A2DF5F18C859DB001D6CF0 /* BingImages_53581.png in Resources */,
 				84264E1A18C7909A00FAA855 /* InfoPlist.strings in Resources */,
 				84264E2218C7909A00FAA855 /* Images.xcassets in Resources */,
+				84A2DF5E18C859DB001D6CF0 /* avtobus-1.png in Resources */,
 				84264E3F18C790B200FAA855 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +459,7 @@
 				84264E3A18C7909A00FAA855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84264E3B18C7909A00FAA855 /* Build configuration list for PBXNativeTarget "MU108_HW_4Tests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +468,7 @@
 				84264E3D18C7909A00FAA855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
